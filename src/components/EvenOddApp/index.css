@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.bg_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container {
+  width: 100%;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  font-family: 'Roboto';
+  height: 60%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #0f172a;
+  font-size: 35px;
+}
+
+.count {
+  color: #334155;
+  font-size: 25px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #1e293b;
+  padding: 8px 35px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 8px;
+}
+
+.note {
+  color: #334155;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .main_container {
+    max-width: 500px;
+    max-height: 800px;
+  }
+}
